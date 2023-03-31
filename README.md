@@ -19,4 +19,14 @@ Corosync - это открытое программное обеспечение
 
 1. `Pacemaker, Corosync, Pcs`
 
-![JPG]()
+![JPG](https://github.com/akinya1974/Pacemaker/blob/main/JPG/2.jpg)
+![JPG](https://github.com/akinya1974/Pacemaker/blob/main/JPG/3.jpg)
+![JPG](https://github.com/akinya1974/Pacemaker/blob/main/JPG/4.jpg)
+![JPG](https://github.com/akinya1974/Pacemaker/blob/main/JPG/5.jpg)
+
+## Задание 4
+
+С подключением сервиса DRBD пока не разобрался, но нашел установку IP адреса, для нод!)
+
+![JPG](https://github.com/akinya1974/Pacemaker/blob/main/JPG/Задание-4.jpg)
+
