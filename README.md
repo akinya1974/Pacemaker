@@ -20,8 +20,17 @@ Corosync - это открытое программное обеспечение
 1. `Pacemaker, Corosync, Pcs`
 
 ![JPG](https://github.com/akinya1974/Pacemaker/blob/main/JPG/2.jpg)
+
+...
+
 ![JPG](https://github.com/akinya1974/Pacemaker/blob/main/JPG/3.jpg)
+
+...
+
 ![JPG](https://github.com/akinya1974/Pacemaker/blob/main/JPG/4.jpg)
+
+...
+
 ![JPG](https://github.com/akinya1974/Pacemaker/blob/main/JPG/5.jpg)
 
 ## Задание 4
