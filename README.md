@@ -17,7 +17,49 @@ Corosync - это открытое программное обеспечение
 
 ## Задание 3
 
+### Конфиг: /etc/corosync/corosync.conf
+
+```sh
+totem {
+    version: 2
+    cluster_name: newCluster
+    transport: knet
+    crypto_cipher: aes256
+    crypto_hash: sha256
+}
+
+nodelist {
+    node {
+        ring0_addr: node1
+        name: node1
+        nodeid: 1
+    }
+
+    node {
+        ring0_addr: node2
+        name: node2
+        nodeid: 2
+    }
+}
+
+quorum {
+    provider: corosync_votequorum
+    two_node: 1
+}
+
+logging {
+    to_logfile: yes
+    logfile: /var/log/corosync/corosync.log
+    to_syslog: yes
+    timestamp: on
+}
+```
+
 1. `Pacemaker, Corosync, Pcs`
+
+![JPG](https://github.com/akinya1974/Pacemaker/blob/main/JPG/1.jpg)
+
+...
 
 ![JPG](https://github.com/akinya1974/Pacemaker/blob/main/JPG/2.jpg)
 
@@ -27,11 +69,6 @@ Corosync - это открытое программное обеспечение
 
 ...
 
-![JPG](https://github.com/akinya1974/Pacemaker/blob/main/JPG/4.jpg)
-
-...
-
-![JPG](https://github.com/akinya1974/Pacemaker/blob/main/JPG/5.jpg)
 
 ## Задание 4
 
